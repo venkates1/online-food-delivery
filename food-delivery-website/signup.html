@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>Signup</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="s.css"/>
+    </head>
+    <body style="background-color: bisque;background-size: 100% 100%;background-image: url(i.jpg);background-size: cover">
+        
+        <center>
+            <div class="header">
+        <h1 style="font-family:monotype corsiva">!!WELCOME!!</h1></div>
+            
+        <nav>
+        <a href="index1.html"><i class="fa fa-home"></i>&nbsp; HOME</a>
+    	<a href="about.html">ABOUT</a>
+    	<a  href="login.html">LOGIN</a>
+    	<a class="active" onclick="document.getElementById('id1').style.display='block'" style="width: auto" href="#">SIGN UP</a>
+            </nav><!--nav -->
+            
+              <div class="image">
+        <img src="Images/p17.jpg" style="width:100%"/></div>
+                   
+           <div id="id1" class="modal">
+                <form class="modal-content animate">
+                    
+                    <div class="imgcontainer">
+                         <span onclick="document.getElementById('id1').style.display='none'" class="close" title="close modal">&times;</span>
+                        <img src="avatar.png" class="avatar" />
+                    </div>
+                    <label style="margin: 10">Create Your Account</label><br>
+
+                    <div id="signup">  <br><br>
+        <label>FirstName:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input id="first" type="text" placeholder="firstname"><br><br>
+        <label>LastName:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input id="last" type="text" placeholder="lastname"><br><br>
+        <label>Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input id="pass1" type="password" placeholder="new password"><br><br>
+        <label>Renter Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input id="pass2" type="password" placeholder="password"><br><br>
+
+
+        <label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="em2" type="email" placeholder="email"><br><br><br>
+                              <p>  <label>Gender:</label><input type="radio" name="a">Male
+        <input type="radio" name="a">Female
+                <input type="radio" name="a">Others<br><br></p>
+        <button onclick="abc()">SignUp</button>&nbsp; &nbsp;<br>
+        <input type="reset" value="Reset">&nbsp; &nbsp;<br><br> 
+         
+        </div><!--signup-->
+                    
+               </form><!--modal-content-->
+            </div><!--modal-->
+            <script>
+            var modal=document.getElementById('id1');
+            window.onclick=function(event){
+            if (event.target == modal){
+            modal.style.display="none"; //close
+            }
+                }
+</script>
+            </center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer class="footer-section set-bg" style="background-color:#333">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 footer-widget">
+					<p>We provide you with the best services which is<br>best for your family and which suits your health.</p><br><br>
+					<div class="social">
+						<h5 style="color: white; font-size: 15px">Visit us at</h5>
+						<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+							
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 footer-widget">
+					<div class="contact-widget">
+						<h5 class="fw-title">CONTACT US</h5>
+						<p><i class="fa fa-map-marker"></i>You can contact us here......  </p>
+						<p><i class="fa fa-phone"></i>+91-7259851620</p>
+						<p><i class="fa fa-envelope"></i>venkatesag2011@gmail.com</p>
+						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
+					</div>
+				</div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+					<div class="term-policy">
+                        <a href="#">Terms and conditions</a><br><br>
+                        <a href="#">Privacy Policy</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 footer-widget">
+					<div class="double-menu-widget">
+						<h5 class="fw-title">OUR BRANCHES</h5>
+						<ul>
+							<li><a href="">Mumbai</a></li>
+							<li><a href="">Delhi</a></li>
+							<li><a href="">Chennai</a></li>
+							<li><a href="">Kolkata</a></li>
+							<li><a href="">Banglore</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Chandigarh</a></li>
+							<li><a href="">Pune</a></li>
+							<li><a href="">Jaipur</a></li>
+							<li><a href="">Kochi</a></li>
+							<li><a href="">Ooty</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6  footer-widget">
+					<div class="newslatter-widget">
+						<h5 class="fw-title">NEWSLETTER</h5>
+						<p>Subscribe your email to get the latest news and<br> new offer also discount</p>
+						<form class="footer-newslatter-form">
+							<input type="text" placeholder="Email address">
+							<button><i class="fa fa-send"></i></button>
+						</form>
+					</div>
+				</div>
+                <div class="icon1">
+            <a href="#"><img src="Images/apple.png" /></a>
+                    <a href="#"><img style="position: absolute;left: 190px" src="Images/google.jpg" /></a></div>
+                
+			</div>
+			
+		</div>
+	</footer>
+    
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+    </body>
+    
+    </html>
